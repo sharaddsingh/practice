@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+/* For Border */
+
+.B {
+    border: 1px solid transparent;
+}
+
+.B:hover {
+    border: 2px solid white;
+}
+
+/* Header */
+
+
+.navbar {
+    height: 55px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 60px;
+}
+
+.a_logo {
+    background-image: url(public/images/A_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 114px;
+}
+
+.panel-1 {
+    display: flex;
+    height: 50px;
+    width: 90px;
+}
+
+.location {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+/* panel-2 */
+
+.panel-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    width: 650px;
+}
+
+.panel-2 input {
+    width: 34rem;
+    height: 100%;
+    text-align: center;
+    border: none;
+}
+
+.Search {
+    width: 50px;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: yellowgreen;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 20px;
+
+}
+
+.panel-2 select {
+    width: 45px;
+    height: 100%;
+    background-color: cyan;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.panel-3 {
+    background-image: url(public/images/A_pic.png);
+    background-size: cover;
+    height: 30px;
+    width: 50px;
+}
+
+.panel-5 {
+    height: 55px;
+    width: 140px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PANEL_5a {
+    margin-left: -45px;
+}
+
+.PANEL_5b {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.panel-6 {
+    height: 55px;
+    width: 80px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PANEL_6a {
+    margin-left: -20px;
+}
+
+.panel-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 85px;
+    font-size: 30px;
+}
+
+.panel-7a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* navbar panel 2 */
+
+.nav2 {
+    background-color: #353b53;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.nav2 div {
+    padding-right: 30px;
+}
+
+.nav2-a {
+    font-weight: 700px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+/* poster */
+
+.poster {
+    background-image: url(public/images/AMAZON-BANNER.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+}
+
+.poster-heading {
+    height: 40px;
+    margin: 25px;
+    background-color: #f5f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+}
+
+/* Card body */
+
+.CARD_PARENT {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card-title {
+    height: 60px;
+    text-align: center;
+    align-content: center;
+}
+
+.card img {
+    height: 300px;
+}
+
+.Margin {
+    margin-top: 20px;
+
+}
+
+.btn {
+    background-color: rgb(168, 237, 29);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+section {
+    height: 200px;
+}
+
+.section-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h4 {
+    font-weight: 700;
+}
+
+.foot1 {
+    height: 50px;
+    background-color: #353b53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot2 {
+    background-color: #23252d;
+    height: 260px;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.foot3 {
+    height: 60px;
+    background-color: #23252d;
+}
+
+.foot4 {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    background-color: #23252d;
+}
+
+.foot4 span {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.foot5 {
+    height: 30px;
+    background-color: #23252d;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
